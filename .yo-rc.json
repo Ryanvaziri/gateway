@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "gateway",
+    "packageName": "com.ryan.gateway",
+    "packageFolder": "com/ryan/gateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "M2MyZmZmYjk0ZjYzYmVmMThkYjVmZmNlOGFhYmI2OTM0ZWJkMjZiYzI2MWI1MzEyYjE0ZWZhMTRjZjZlNGY4MDZiODA4Yjk3NjJlNzhlOTI5MTUwOTBmYjUwNzIzN2NiMzRiMjg2ZDA4NmYwZWNjYjBkNmYwZjg4ZDhkYTM2Zjk=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "Ryanvaziri",
+  "repository-name": "gateway"
+}
